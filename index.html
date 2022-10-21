@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Glovo - Tu comida a domicilio</title>
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Primer Bloque: Header -->
+    <header class="header">
+        <img class="logo" src="./assets/logo.png">
+    </header>
+
+    <!-- Segundo Bloque: Contiene el listado de items y el carrito -->
+    <section class="container">
+        <main class="main custom-border">
+            <h2 class="restaurant-title">Mcdonald's</h2>
+            <p class="restaurant-info">Tiempo de entrega: 15-20'</p>
+            <h3 class="restaurant-items-title">Top ventas</h3>
+            <div id="listItems" class="restaurant-items">
+                <!-- Aquí van los items generados por javascript -->
+            </div>
+        </main>
+        <aside class="cart custom-border">
+            <p class="cart-title">Tu glovo</p>
+            <!-- Cuando no hay producto -->
+            <div id="cartNoItems" class="cart-no-products">
+                <img class="no-products-img" src="./assets/sin-productos.png">
+                <p class="no-products-text"> Todavía no has añadido ningún producto. Cuando lo hagas, ¡verás los productos aquí! </p>
+            </div>
+            <!-- Cuando hay producto -->
+            <div id="cartItems" class="cart-products">
+                <!-- Aquí van los productos agregados al carrito -->
+            </div>
+        </aside>
+    </section>
+
+    <!-- Terce Bloque: Footer -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <img class="logo" src="./assets/logo-footer.png">
+            <div class="footer-links">
+                <div class="footer-links-column">
+                    <p class="footer-link-title">Colabora con Glovo</p>
+                    <a class="footer-link" href="#">Trabaja con nosotros</a>
+                    <a class="footer-link" href="#">Glovo para Partners</a>
+                    <a class="footer-link" href="#">Repartidores</a>
+                    <a class="footer-link" href="#">Glovo Business</a>
+                </div>
+                <div class="footer-links-column">
+                    <p class="footer-link-title">Enlaces de interés</p>
+                    <a class="footer-link" href="#">Acerca de nosotros</a>
+                    <a class="footer-link" href="#">Preguntas frecuentes</a>
+                    <a class="footer-link" href="#">Blog</a>
+                    <a class="footer-link" href="#">Contacto</a>
+                    <a class="footer-link" href="#">Seguridad</a>
+                </div>
+                <div class="footer-links-column">
+                    <p class="footer-link-title">Sígenos</p>
+                    <a class="footer-link" href="#">Facebook</a>
+                    <a class="footer-link" href="#">Twitter</a>
+                    <a class="footer-link" href="#">Instragram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

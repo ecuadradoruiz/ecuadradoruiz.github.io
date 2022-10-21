@@ -1,0 +1,239 @@
+
+/* GLOBAL STYLES */
+body {
+  background: #fff;
+  color: #000;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+
+/* HEADER */
+.header {
+  background-color: #FBC244;
+  padding: 25px;
+}
+
+.logo {
+  width: 100px;
+10}
+
+/* FOOTER */
+.footer {
+  background-color: #1D1D1C;
+}
+
+.footer-container{
+  max-width: 1000px;
+  margin: 0 auto; /* auto (pequeño truki para centrar) */
+  padding: 40px 0;
+}
+
+.footer-links {
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer-links-column {
+  margin-right: 100px;
+}
+
+.footer-link-title{
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.footer-link {
+  color: #A09FA0;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 15px;
+  display: block; /* para que salgan cada uno en una linea */
+}
+
+
+/* CONTAINER */
+.container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.main{
+  width: 750px;
+  margin: 20px 10px 20px 20px;
+  padding: 40px;
+}
+
+.custom-border{
+  box-shadow: 0 1px 5px rgb(0 0 0 / 15%);
+  border-radius: 8px;
+}
+
+.restaurant-title{
+  font-size: 35px;
+  margin: 0;
+}
+
+.restaurant-info{
+  font-size: 14px;
+  color: #A09FA0;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #C8C8C8;
+}
+
+.restaurant-items-title{
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+.item{
+  border-radius: 10px;
+  border: 1px solid #C8C8C8;
+  padding: 15px;
+  width: 300px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.item-description{
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+.item-order{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-img{
+  width: 100px;
+}
+
+.item-price{
+  text-align: left;
+}
+
+.item-add{
+  border-radius: 200px;
+  border:none;
+  background-color: #E8F8F5;
+  color: #35A183;
+  font-size: 25px;
+  min-width: 30px;
+}
+
+/* ASIDE */
+.cart{
+  width: 300px;
+  margin: 20px 20px 20px 10px;
+  padding: 40px;
+}
+
+.cart-title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cart-no-products{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.no-products-img{
+  width: 200px;
+  margin: 0 auto;
+}
+
+.no-products-text{
+  text-align: center;
+  color: #A09FA0;
+  font-size: 18px;
+}
+
+.cart-products{
+  margin-top: 20px;
+}
+
+.cart-item{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.cart-item-quantity{
+  font-weight: bold;
+  margin: 5px;
+}
+
+.cart-item-description{
+  margin: 5px;
+}
+
+.cart-item-price{
+  margin: 5px;
+}
+
+.cart-item-btn{
+  border-radius: 50px;
+  border:none;
+  background-color: #EAABA7;
+  color: #951D14;
+  width: 30px;
+  height: 30px;
+  margin: 5px 0;
+}
+
+.cart-total{
+  padding: 15px;
+  background-color: #FBC244;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/* FOOTER */
+.footer {
+  background-color: #1D1D1C;
+}
+
+.footer-container{
+  max-width: 1000px;
+  margin: 0 auto; /* auto (pequeño truki para centrar) */
+  padding: 40px 0;
+}
+
+.footer-links {
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer-links-column {
+  margin-right: 100px;
+}
+
+.footer-link-title{
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.footer-link {
+  color: #A09FA0;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 15px;
+  display: block; /* para que salgan cada uno en una linea */
+}
